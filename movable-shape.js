@@ -12,7 +12,7 @@ var movableShape = {
 		Put your shape(s) in drawShape()
 		You can simply override what is here in your sketch.js:
 			myShape.drawShape = function () {
-				// your code goes here
+				// your code goes h\ere
 			};
 		It is blank here so the code runs without any revision.
 	*/
@@ -26,6 +26,7 @@ var movableShape = {
 		translate(this.x - this.origin.x, this.y - this.origin.y); // this is where the magic happens
 		this.drawShape(); // this is where your drawShape() gets called
 		pop();
+		//rotate();
 	},
 
 	// update() groups together all the things that happen each time draw() is called
