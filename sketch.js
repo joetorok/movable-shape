@@ -10,7 +10,7 @@ pacman.size = 100;
 pacman.drawShape = function () {
 	// your code goes here
 	fill(255, 238, 0); //pacman color
-  arc(0, 0, this.size, this.size, QUARTER_PI, 2 * PI); // pacman shape
+  arc(40, 40, this.size, this.size, QUARTER_PI, 2 * PI); // pacman shape
 };
 
 // You will also need to do some work to set the speed of the shape. How do you want it to move? What do you need to change to get it to move?
