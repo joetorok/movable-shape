@@ -34,9 +34,8 @@ rocket.drawShape = function () {
 
 setup = function() {
 	createCanvas(600, 600);
-	//pacman.x = -100;
-	//pacman.y = 100;
 	rocket.speed.y = -1;
+
 };
 
 draw = function() {
